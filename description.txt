@@ -1,2 +1,2 @@
 Tyson v1
-Tyson is a simple one-page template for generic websites.
+Tyson is a simple one-page template for generic websites in Concrete 5.
