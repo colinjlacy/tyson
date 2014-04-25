@@ -1,0 +1,55 @@
+// Links
+a {
+    color: @site-primary;
+    text-decoration: underline;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
+    &:hover {
+        color: darken(@site-primary, 10%);
+    }
+}
+.btn-primary {
+    background-image: none;
+    background-color: @site-primary;
+    border: 1px solid @site-primary;
+    text-decoration: none;
+    &:hover {
+        background-image: none;
+        background-color: darken(@site-primary, 10%);
+        border: 1px solid white;
+    }
+}
+
+// Images
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+// Fonts
+html,
+body {
+    font-family: @font-primary;
+}
+
+h1 {
+    font-family: @font-headline;
+    font-size: 3em;
+    font-weight: 300;
+    @media(min-width: @screen-sm) {
+        font-size: 5em;
+    }
+}
+h2 {
+    font-family: @font-headline;
+    font-size: 2.5em;
+    font-weight: 400;
+}
+h3 {
+    font-family: @font-headline;
+    font-size: 2em;
+    font-weight: 400;
+}
