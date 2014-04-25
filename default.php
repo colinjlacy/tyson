@@ -82,5 +82,16 @@
     </div>
 </section>
 
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="text-center major-icon"><span class="fa fa-coffee"></span></div>
+                <p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at consequuntur deserunt doloribus ducimus et maxime odit officia quas quisquam rem sequi sint soluta sunt, tempora ullam veniam. Minus, perspiciatis?</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 </body>
 </html>
