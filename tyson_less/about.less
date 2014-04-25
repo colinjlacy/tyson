@@ -1,0 +1,35 @@
+#about {
+    background-color: @site-secondary;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    @media (min-width: @screen-sm) {
+        padding-top: 4em;
+        padding-bottom: 4em;
+    }
+    h2 {
+        color: lighten(@site-primary, 20%);
+        @media (min-width: @screen-sm) {
+            font-size: 4em;
+            margin-bottom: 1rem;
+            margin-top: 0;
+            text-shadow: 1px 1px 2px darken(@site-secondary, 20%);
+        }
+    }
+    p.lead {
+        line-height: 175%;
+    }
+    img {
+        box-shadow: 0px 1px 2px darken(@site-secondary, 20%);;
+        @media (max-width: @screen-xs-max) {
+            margin-top: 2em;
+            margin-bottom: 2em;
+        }
+    }
+    .about-text {
+        @media (min-width: @screen-sm) and (max-width: @screen-sm-max) {
+            float: none;
+            width: 100%;
+        }
+    }
+}

@@ -55,5 +55,32 @@
     </div>
 </section>
 
+<section id="about">
+    <div class="container">
+        <div class="row">
+<!--            <div class="col-xs-12">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-sm-offset-5 col-sm-7 ">-->
+<!--                        <h2>About Us</h2>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-sm-5 col-md-4">-->
+<!--                <img src="--><?php //echo $this->getThemePath(); ?><!--/img/colin.jpg">-->
+<!--            </div>-->
+<!--            <div class="col-md-offset-1 col-sm-7 ">-->
+<!--                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi doloribus ducimus enim, eveniet facilis, impedit in ipsam ipsum non odit officia perferendis quae quo reprehenderit repudiandae, saepe ut voluptatem voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti in iure quos sapiente tempora tempore vitae. Ipsam, magnam, quam! Assumenda aut commodi consectetur cupiditate dicta laboriosam, molestias nesciunt nulla rerum!</p>-->
+<!--            </div>-->
+            <div class="col-sm-5 col-lg-4 about-image">
+                <img src="<?php echo $this->getThemePath(); ?>/img/colin.jpg">
+            </div>
+            <div class="col-lg-offset-1 col-sm-7 about-text">
+                <h2>About Us</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi doloribus ducimus enim, eveniet facilis, impedit in ipsam ipsum non odit officia perferendis quae quo reprehenderit repudiandae, saepe ut voluptatem voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti in iure quos sapiente tempora tempore vitae. Ipsam, magnam, quam! Assumenda aut commodi consectetur cupiditate dicta laboriosam, molestias nesciunt nulla rerum!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 </body>
 </html>
