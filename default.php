@@ -87,7 +87,216 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="text-center major-icon"><span class="fa fa-coffee"></span></div>
-                <p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at consequuntur deserunt doloribus ducimus et maxime odit officia quas quisquam rem sequi sint soluta sunt, tempora ullam veniam. Minus, perspiciatis?</p>
+                <p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at consequuntur deserunt doloribus ducimus et maxime odit officia quas quisquam</p>
+            </div>
+            <div class="col-sm-12">
+                <hr>
+            </div>
+            <div class="col-sm-4">
+                <div class="text-center minor-icon"><span class="fa fa-cutlery"></span></div>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-sm-4">
+                <div class="text-center minor-icon"><span class="fa fa-glass"></span></div>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-sm-4">
+                <div class="text-center minor-icon"><span class="fa fa-truck"></span></div>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="menu">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Menu</h2>
+                <hr>
+            </div>
+            <div class="col-sm-4">
+                <h3>appetizers</h3>
+                <dl>
+                    <dt>
+                        lorem ipsum
+                    </dt>
+                    <dd>
+                        dolor sit amet, consectetur adipisicing elit
+                    </dd>
+                    <dt>
+                        lorem ipsum
+                    </dt>
+                    <dd>
+                        dolor sit amet, consectetur adipisicing elit
+                    </dd>
+                    <dt>
+                        lorem ipsum
+                    </dt>
+                    <dd>
+                        dolor sit amet, consectetur adipisicing elit
+                    </dd>
+                    <dt>
+                        lorem ipsum
+                    </dt>
+                    <dd>
+                        dolor sit amet, consectetur adipisicing elit
+                    </dd>
+                    <dt>
+                        lorem ipsum
+                    </dt>
+                    <dd>
+                        dolor sit amet, consectetur adipisicing elit
+                    </dd>
+                    <dt>
+                        lorem ipsum
+                    </dt>
+                    <dd>
+                        dolor sit amet, consectetur adipisicing elit
+                    </dd>
+                    <dt>
+                        lorem ipsum
+                    </dt>
+                    <dd>
+                        dolor sit amet, consectetur adipisicing elit
+                    </dd>
+                </dl>
+            </div>
+            <div class="col-sm-4">
+                <h3>entrees</h3>
+                <dl>
+                    <dt>
+                        lorem ipsum
+                    </dt>
+                    <dd>
+                        dolor sit amet, consectetur adipisicing elit
+                    </dd>
+                    <dt>
+                        lorem ipsum
+                    </dt>
+                    <dd>
+                        dolor sit amet, consectetur adipisicing elit
+                    </dd>
+                    <dt>
+                        lorem ipsum
+                    </dt>
+                    <dd>
+                        dolor sit amet, consectetur adipisicing elit
+                    </dd>
+                    <dt>
+                        lorem ipsum
+                    </dt>
+                    <dd>
+                        dolor sit amet, consectetur adipisicing elit
+                    </dd>
+                    <dt>
+                        lorem ipsum
+                    </dt>
+                    <dd>
+                        dolor sit amet, consectetur adipisicing elit
+                    </dd>
+                    <dt>
+                        lorem ipsum
+                    </dt>
+                    <dd>
+                        dolor sit amet, consectetur adipisicing elit
+                    </dd>
+                    <dt>
+                        lorem ipsum
+                    </dt>
+                    <dd>
+                        dolor sit amet, consectetur adipisicing elit
+                    </dd>
+                </dl>
+            </div>
+            <div class="col-sm-4">
+                <h3>desserts</h3>
+                <dl>
+                    <dt>
+                        lorem ipsum
+                    </dt>
+                    <dd>
+                        dolor sit amet, consectetur adipisicing elit
+                    </dd>
+                    <dt>
+                        lorem ipsum
+                    </dt>
+                    <dd>
+                        dolor sit amet, consectetur adipisicing elit
+                    </dd>
+                    <dt>
+                        lorem ipsum
+                    </dt>
+                    <dd>
+                        dolor sit amet, consectetur adipisicing elit
+                    </dd>
+                    <dt>
+                        lorem ipsum
+                    </dt>
+                    <dd>
+                        dolor sit amet, consectetur adipisicing elit
+                    </dd>
+                    <dt>
+                        lorem ipsum
+                    </dt>
+                    <dd>
+                        dolor sit amet, consectetur adipisicing elit
+                    </dd>
+                    <dt>
+                        lorem ipsum
+                    </dt>
+                    <dd>
+                        dolor sit amet, consectetur adipisicing elit
+                    </dd>
+                    <dt>
+                        lorem ipsum
+                    </dt>
+                    <dd>
+                        dolor sit amet, consectetur adipisicing elit
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2 class="email-us">Email Us</h2>
+                <hr>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label class="control-label">
+                            Name
+                            <input type="text" name="email_name" class="form-control" />
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">
+                            Email
+                            <input type="email" name="email_email" class="form-control" />
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">
+                            Confirm Email
+                            <input type="email" name="email_conf" class="form-control" />
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">
+                            Message
+                            <textarea name="email_message" class="form-control" rows="8"></textarea>
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-default">SEND</button>
+                </form>
+            </div>
+            <div class="col-sm-6 col-md-5 col-md-offset-1">
+                <h2 class="twitter">Follow Us on Twitter </h2>
+                <hr>
             </div>
         </div>
     </div>

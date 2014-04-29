@@ -1,0 +1,27 @@
+#contact {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: @gray-dark;
+    h2 {
+        color: @gray-light;
+        &.twitter {
+            @media (min-width: @screen-sm) {
+                text-align: right;
+            }
+        }
+    }
+    label {
+        color: @gray-light;
+        width: 100%;
+        font-size: 18px;
+        font-weight: 100;
+    }
+    input,
+    textarea {
+        background-color: @gray;
+        color: @gray-light;
+    }
+    .btn {
+        font-weight: 900;
+    }
+}

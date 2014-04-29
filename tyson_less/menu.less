@@ -1,0 +1,29 @@
+#menu {
+    background-color: @site-primary;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    h2,
+    h3 {
+        @media (max-width: @screen-xs-max) {
+            text-align: center;
+        }
+    }
+    dt {
+        @media (max-width: @screen-xs-max) {
+            text-align: center;
+        }
+        color: #ffffff;
+        margin-bottom: 0;
+        font-weight: 100;
+        font-family: @font-headline;
+        text-transform: uppercase;
+        font-size: 1.35em;
+    }
+    dd {
+        @media (max-width: @screen-xs-max) {
+            text-align: center;
+        }
+        color: darken(@site-primary, 20%);
+        margin-bottom: 1em;
+    }
+}
